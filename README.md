@@ -1,11 +1,11 @@
-# CovidNet-Peru
+# CovidNet-Peru [![Cult Of Martians][cult-img]][cult]
 > Una propuesta de desarrollo colectivo para el diagnóstico temprano de COVID-Perú.
 
+Se trata de una tecnología open source basado en un modelo de redes neuronales convolucionales con aprendizaje profundo para el pre-diagnóstico del COVID-19 mediante imágenes de radiografía del Tórax
 
 
 
 
-Una tecnología open source de aprendizaje profundo para el pre-diagnóstico del COVID-19 mediante imágenes de radiografía del Tórax
 ### Problemática
 En tiempos tan críticos como la actual pandemia, necesitamos de herramientas tecnológicas eficientes y confiables para ayudar a enfrentar la enfermedad en todas las etapas, en este caso esta iniciativa supone complementar en el diagnóstico rápido de la enfermedad sobre todo en la región de Latinoamericana. Perú es el segundo país de la región con mayor nivel de infectados (al 29 de abril con más de 33 mil casos confirmados), después de Brasil.
 Utilizar las imágenes radiológicas (radiografías y/o tomografías) como primera medida para la detección temprana de COVID19 permitiría reconocer el real panorama de infectados a nivel comunitario. El uso de radiografías representa una herramienta accesible, de bajo costo y rápida respuesta para detectar patrones neumónicos por SARS-CoV-2.
