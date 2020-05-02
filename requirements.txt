@@ -1,6 +1,6 @@
-pandas
-numpy
-opencv-python
-scikit-image
-tensorflow==1.15.0
-keras
+import pandas
+import numpy
+import opencv-python
+import scikit-image
+import tensorflow==1.15.0
+import keras
