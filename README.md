@@ -60,5 +60,7 @@ La base para lograr un sistema integral inteligente (https://github.com/minskyla
 
 **Recursos adicionales:** https://github.com/aildnont/covid-cxr
 
-
+--- 
 `Equipo de investigación: ialab@hackactivistas.org, edwincc@tenzorgroup.com, jhosepvega2015@gmail.com, david.chaupis.m@upch.pe, samuel.electronica@gmail.com, edronald7@gmail.com`
+
+
