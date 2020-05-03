@@ -24,7 +24,9 @@ Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo,
 
 Es así que planteamos una adaptación del protocolo de atención a persona con sospecha de COVID-19 sugerido por la OMS (4), como medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio (Figura 1). Tal como se hizo en Codogno (Italia) durante la etapa post-cuarentena, implementando una rápida medida de screening en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax como método pre-diagnóstico (4). Adicionalmente, potenciar dicho método diagnóstico mediante el autómata inteligente integrado a un agente conversacional (o chatbot) que permita orientar al ciudadano durante el proceso de triaje. 
 
-[imagen1] 
+
+<img src="Protocolo de asistencia rápida para descarte COVID19.png" align="center" />
+
 
 ## Resultados previos
 
