@@ -22,15 +22,15 @@ Siendo ese el principal desafío para las enfermedades emergentes infecto-contag
 
 Es así que planteamos una adaptación del protocolo de atención a persona con sospecha de COVID-19 sugerido por la OMS (4), como medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio (Figura 1). Tal como se hizo en Codogno (Italia) durante la etapa post-cuarentena, implementando una rápida medida de screening en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax como método pre-diagnóstico (4). Adicionalmente, potenciar dicho método diagnóstico mediante el autómata inteligente integrado a un agente conversacional (o chatbot) que permita orientar al ciudadano durante el proceso de triaje. 
 
-
 <img src="/imagenes/Protocolo de asistencia rápida para descarte COVID19.png" align="center" />
-
 
 Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo, fácil acceso y alta confiabilidad, basado en el diseño inteligente que incluso permitiría la reducción del burnout en el personal médico. Este modelo consiste en una red neuronal convolucional profunda basada en una arquitectura diseñada bajo la visión de colaboración humano-maquina inspirada en el estudio de Wang L. and Wong A. (2020).
 
 ## Resultados previos
 
 Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (7), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos pre-entrenar nuestro modelo con dicha dataset, además, hemos dotado a nuestro modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
+
+<img src="/imagenes/Web.png" align="center" />
 
 En total nuestro modelo presenta tres procesos (o capas) de identificación: una primera capa de discriminación de imágenes radiográficas, una segunda capa de detección de radiografías con patrones de una neumonía viral tipo COVID y, por último, una última capa que permite verificar lesiones respiratorias adicionales. De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú, adicionalmente hemos programado un chatbot en Fb messenger ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje. 
 
