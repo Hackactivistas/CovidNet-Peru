@@ -34,7 +34,13 @@ Hemos generado una validación previa del modelo de inteligencia artificial, bas
 
 En total nuestro modelo presenta tres procesos (o capas) de identificación: una primera capa de discriminación de imágenes radiográficas, una segunda capa de detección de radiografías con patrones de una neumonía viral tipo COVID y, por último, una última capa que permite verificar lesiones respiratorias adicionales. De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú, adicionalmente hemos programado un chatbot en Fb messenger ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje. 
 
-[imagenes]
+<img src="/imagenes/flujo.png" align="center" />
+
+## Propuesta de desarrollo colectivo
+
+
+<img src="/imagenes/indice.jpg" align="center" />
+
 
 
 ## Referencias:
