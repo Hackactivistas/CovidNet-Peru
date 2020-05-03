@@ -8,11 +8,12 @@ Se trata de una tecnología open source basado en un modelo de redes neuronales 
 [cc]:          https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
-### Problemática
-En tiempos tan críticos como la actual pandemia, necesitamos de herramientas tecnológicas eficientes y confiables para ayudar a enfrentar la enfermedad en todas las etapas, en este caso esta iniciativa supone complementar en el diagnóstico rápido de la enfermedad sobre todo en la región de Latinoamericana. Perú es el segundo país de la región con mayor nivel de infectados (al 29 de abril con más de 33 mil casos confirmados), después de Brasil.
-Utilizar las imágenes radiológicas (radiografías y/o tomografías) como primera medida para la detección temprana de COVID19 permitiría reconocer el real panorama de infectados a nivel comunitario. El uso de radiografías representa una herramienta accesible, de bajo costo y rápida respuesta para detectar patrones neumónicos por SARS-CoV-2.
-Si bien las radiografías no presentan una alta sensibilidad en los primeros cinco días de la infección, son las tomografías una excelente opción de diagnóstico temprano a comparación de las pruebas moleculares (PCR-RT) que han presentado una sensibilidad variable entre 37% a 71%.
-### Solución
+## Presentación
+En tiempos tan críticos como la actual pandemia necesitamos de una gobernanza abierta que promueva el desarrollo tecnológico del software libre, herramientas eficientes y confiables de acceso abierto a la innovación continua. Nos encontramos en plena crisis sanitaria y transformación digital (la llamada 4ta Revolución Industrial), por ello es que nace COVIDNetPerú, una propuesta open source que complementa al diagnóstico del COVID-19 utilizando radiografías de tórax mediante la inteligencia artificial.
+Nuestro software es una iniciativa de ciencia ciudadana, la cual motiva a la integración cultural basado en un modelo de autogestión colaborativa entre científicos activistas independientes (o Hackactivistas). 
+La reestructuración de nuevas organizaciones societarias emerge en cada crisis socio-económica, en este contexto, nuestras sociedades latinoamericanas tienen la oportunidad de liderar la innovación social digital impulsando una economía orientada a los bienes comunes desde una política de libre cooperación entre redes autónomas.
+
+## Problema
 En ese sentido, nuestro equipo de investigación yo, Jhosep, David y Samuel elaboramos una propuesta de un desarrollo tecnológico con base científica llamado COVIDNet-Perú. Se trata de un modelo de inteligencia artificial capaz de predecir la infección por COVID-19 mediante pruebas radiográficas. Este modelo consiste en una red neuronal convolucional profunda basada en una arquitectura diseñada a partir de la colaboración humano-maquina influenciada en el estudio de Wang L. and Wong A. (2020).
 El modelo ha pasado por una prueba de entrenamiento mediante indicadores de funcionalidad (sensibilidad, especificidad y precisión) a partir de una dataset de 16756 imágenes radiográficas de tórax, clasificados en tres posibles resultados como: a) casos sanos, b) casos neumonía y, c) COVID19. Adicionalmente, permite el autómata inteligente discriminar entre una imagen radiográfica de tórax y otros tipos de imágenes que induzcan al error por ser de fuente desconocida no radiográfica.
 
