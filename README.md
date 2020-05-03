@@ -26,7 +26,7 @@ Es así que planteamos una adaptación del protocolo de atención a persona con 
 
 [imagen1] 
 
-## Resultados esperados
+## Resultados previos
 
 Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (7), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos pre-entrenar nuestro modelo con dicha dataset, además, hemos dotado a nuestro modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
 
