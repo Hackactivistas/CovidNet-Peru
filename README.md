@@ -30,7 +30,7 @@ Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo,
 
 Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (7), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos pre-entrenar nuestro modelo con dicha dataset, además, hemos dotado a nuestro modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
 
-<img src="/imagenes/Web.png" align="center" />
+<img src="/imagenes/Web.jpg" align="center" />
 
 En total nuestro modelo presenta tres procesos (o capas) de identificación: una primera capa de discriminación de imágenes radiográficas, una segunda capa de detección de radiografías con patrones de una neumonía viral tipo COVID y, por último, una última capa que permite verificar lesiones respiratorias adicionales. De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú, adicionalmente hemos programado un chatbot en Fb messenger ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje. 
 
