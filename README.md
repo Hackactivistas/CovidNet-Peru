@@ -20,13 +20,13 @@ El COVID-19 está dejando en el Perú un triple impacto a nivel sanitario, econ�
 
 Siendo ese el principal desafío para las enfermedades emergentes infecto-contagiosas, como el COVID-19, lograr una implementación de efectivos métodos diagnósticos que aceleren la detección de los casos infectados. Siendo la prueba molecular PCR (el gold standard) para COVID-19, pese a que tiene una sensibilidad variable entre el 37-71% (2). Estás vienen siendo reforzadas por las pruebas “rápidas” de tipo serológicas que, partir de la segunda semana de iniciada la enfermedad, presentan apenas un 33% de sensibilidad (3). 
 
-Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo, fácil acceso y alta confiabilidad, basado en el diseño inteligente que incluso permitiría la reducción del burnout en el personal médico. Este modelo consiste en una red neuronal convolucional profunda basada en una arquitectura diseñada bajo la visión de colaboración humano-maquina inspirada en el estudio de Wang L. and Wong A. (2020).
-
 Es así que planteamos una adaptación del protocolo de atención a persona con sospecha de COVID-19 sugerido por la OMS (4), como medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio (Figura 1). Tal como se hizo en Codogno (Italia) durante la etapa post-cuarentena, implementando una rápida medida de screening en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax como método pre-diagnóstico (4). Adicionalmente, potenciar dicho método diagnóstico mediante el autómata inteligente integrado a un agente conversacional (o chatbot) que permita orientar al ciudadano durante el proceso de triaje. 
 
 
 <img src="/imagenes/Protocolo de asistencia rápida para descarte COVID19.png" align="center" />
 
+
+Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo, fácil acceso y alta confiabilidad, basado en el diseño inteligente que incluso permitiría la reducción del burnout en el personal médico. Este modelo consiste en una red neuronal convolucional profunda basada en una arquitectura diseñada bajo la visión de colaboración humano-maquina inspirada en el estudio de Wang L. and Wong A. (2020).
 
 ## Resultados previos
 
