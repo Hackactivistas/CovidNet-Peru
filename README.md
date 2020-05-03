@@ -58,8 +58,7 @@ La base para lograr un sistema integral inteligente (https://github.com/minskyla
 4) Bandirali M, Sconfienza LM, Serra R, Brembilla R, Albano D, Pregliasco FE, et al. Chest X-ray findings in asymptomatic and minimally symptomatic quarantined patients in Codogno, Italy. Radiology. 2020 Mar 27;201102. 
 5) Wang L, Wong A. COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest X-Ray Images. arXiv:200309871 [cs, eess] [Internet]. 2020 Apr 15 [cited 2020 Apr 26]; Available from: http://arxiv.org/abs/2003.09871
 
-**Recursos adicionales**: https://github.com/aildnont/covid-cxr
+**Recursos adicionales:** https://github.com/aildnont/covid-cxr
 
 
-`Equipo de investigación
-ialab@hackactivistas.org, edwincc@tenzorgroup.com, jhosepvega2015@gmail.com, david.chaupis.m@upch.pe, samuel.electronica@gmail.com, edronald7@gmail.com`
+`Equipo de investigación: ialab@hackactivistas.org, edwincc@tenzorgroup.com, jhosepvega2015@gmail.com, david.chaupis.m@upch.pe, samuel.electronica@gmail.com, edronald7@gmail.com`align="center" />
