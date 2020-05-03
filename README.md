@@ -4,8 +4,8 @@
 Se trata de una tecnología open source basado en un modelo de redes neuronales convolucionales con aprendizaje profundo para el pre-diagnóstico del COVID-19 mediante imágenes de radiografía del Tórax
 
 
-[cult-img]:      http://cultofmartians.com/assets/badges/badge.svg
-[cult]:          http://cultofmartians.com/tasks/size-limit-config.html
+[cult-img]:      https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cult]:          https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 ### Problemática
