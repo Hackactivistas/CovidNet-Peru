@@ -1,5 +1,5 @@
 # CovidNet-Peru [![CCLicence][cc-img]][cc]
-> Una propuesta de desarrollo colectivo para el diagnóstico temprano de COVID-Perú.
+> Una propuesta de desarrollo colectivo para el diagnóstico temprano de COVID-19.
 
 Se trata de una tecnología open source basado en un modelo de redes neuronales convolucionales con aprendizaje profundo para el pre-diagnóstico del COVID-19 mediante imágenes de radiografía del Tórax
 
