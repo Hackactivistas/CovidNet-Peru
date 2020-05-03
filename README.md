@@ -28,7 +28,7 @@ Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo,
 
 ## Resultados previos
 
-Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (5), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos pre-entrenar nuestro modelo con dicha dataset, además, hemos dotado a nuestro modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
+Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (https://github.com/lindawangg/COVID-Net), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos pre-entrenar nuestro modelo con dicha dataset, además, hemos dotado a nuestro modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
 
 <img src="/imagenes/Web.jpg" align="center" />
 
@@ -58,11 +58,8 @@ La base para lograr un sistema integral inteligente (https://github.com/minskyla
 4) Bandirali M, Sconfienza LM, Serra R, Brembilla R, Albano D, Pregliasco FE, et al. Chest X-ray findings in asymptomatic and minimally symptomatic quarantined patients in Codogno, Italy. Radiology. 2020 Mar 27;201102. 
 5) Wang L, Wong A. COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest X-Ray Images. arXiv:200309871 [cs, eess] [Internet]. 2020 Apr 15 [cited 2020 Apr 26]; Available from: http://arxiv.org/abs/2003.09871
 
+Recursos adicionales: https://github.com/aildnont/covid-cxr
 
-https://github.com/aildnont/covid-cxr
+Equipo de investigación:
 
-
-
-Contactos:
-
-ialabs@hackactivistas.org, edwincc@tenzorgroup.com, jhosepvega2015@gmail.com, david.chaupis.m@upch.pe, samuel.electronica@gmail.com, edronald7@gmail.com
+ialab@hackactivistas.org, edwincc@tenzorgroup.com, jhosepvega2015@gmail.com, david.chaupis.m@upch.pe, samuel.electronica@gmail.com, edronald7@gmail.com
