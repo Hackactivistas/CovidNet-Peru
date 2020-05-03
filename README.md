@@ -20,15 +20,15 @@ El COVID-19 está dejando en el Perú un triple impacto a nivel sanitario, econ�
 
 Siendo ese el principal desafío para las enfermedades emergentes infecto-contagiosas, como el COVID-19, lograr una implementación de efectivos métodos diagnósticos que aceleren la detección de los casos infectados. Siendo la prueba molecular PCR (el gold standard) para COVID-19, pese a que tiene una sensibilidad variable entre el 37-71% (2). Estás vienen siendo reforzadas por las pruebas “rápidas” de tipo serológicas que, partir de la segunda semana de iniciada la enfermedad, presentan apenas un 33% de sensibilidad (3). 
 
-Es así que planteamos una adaptación del protocolo de atención a persona con sospecha de COVID-19 sugerido por la OMS (4), como medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio (Figura 1). Tal como se hizo en Codogno (Italia) durante la etapa post-cuarentena, implementando una rápida medida de screening en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax como método pre-diagnóstico (4). Adicionalmente, potenciar dicho método diagnóstico mediante el autómata inteligente integrado a un agente conversacional (o chatbot) que permita orientar al ciudadano durante el proceso de triaje. 
+Es así que planteamos una adaptación del protocolo de atención a persona con sospecha de COVID-19 sugerido por la OMS (4), como medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio. Tal como se hizo en Codogno (Italia) durante la etapa post-cuarentena, implementando una rápida medida de screening en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax como método pre-diagnóstico (4). Adicionalmente, potenciar dicho método diagnóstico mediante el autómata inteligente integrado a un agente conversacional (o chatbot) que permita orientar al ciudadano durante el proceso de triaje. 
 
 <img src="/imagenes/Protocolo de asistencia rápida para descarte COVID19.png" align="center" />
 
-Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo, fácil acceso y alta confiabilidad, basado en el diseño inteligente que incluso permitiría la reducción del burnout en el personal médico. Este modelo consiste en una red neuronal convolucional profunda basada en una arquitectura diseñada bajo la visión de colaboración humano-maquina inspirada en el estudio de Wang L. and Wong A. (2020).
+Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo, fácil acceso y alta confiabilidad, basado en el diseño inteligente que incluso permitiría la reducción del burnout en el personal médico. Este modelo consiste en una red neuronal convolucional profunda basada en una arquitectura diseñada bajo la visión de colaboración humano-maquina inspirada en el estudio de Wang L. and Wong A. (2020) (5).
 
 ## Resultados previos
 
-Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (7), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos pre-entrenar nuestro modelo con dicha dataset, además, hemos dotado a nuestro modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
+Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (5), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos pre-entrenar nuestro modelo con dicha dataset, además, hemos dotado a nuestro modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
 
 <img src="/imagenes/Web.jpg" align="center" />
 
@@ -54,18 +54,10 @@ La base para lograr un sistema integral inteligente (https://github.com/minskyla
 
 1) Soto A. Barreras para una atención eficaz en los hospitales de referencia del Ministerio de Salud del Perú: atendiendo pacientes en el siglo XXI con recursos del siglo XX. Revista Peruana de Medicina Experimental y Salud Publica. 2019 Jun;36(2):304–11.
 2) Rubin GD, Ryerson CJ, Haramati LB, Sverzellati N, Kanne JP, Raoof S, et al. The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society. Radiology. 2020 Apr 7;201365. 
-3.
+3) Vidal-Anzardo M, Solis G, Solari L, Minaya G, Ayala-Quintanilla B, Astete-Cornejo J, et al. Evaluación en condiciones de campo de una prueba serológica rápida para detección de anticuerpos IgM e IgG contra SARS-CoV-2. Revista Peruana de Medicina Experimental y Salud Pública [Internet]. 2020 Apr 21 [cited 2020 Apr 26];37(2). Available from: https://rpmesp.ins.gob.pe/index.php/rpmesp/article/view/5534
+4) Bandirali M, Sconfienza LM, Serra R, Brembilla R, Albano D, Pregliasco FE, et al. Chest X-ray findings in asymptomatic and minimally symptomatic quarantined patients in Codogno, Italy. Radiology. 2020 Mar 27;201102. 
+5) Wang L, Wong A. COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest X-Ray Images. arXiv:200309871 [cs, eess] [Internet]. 2020 Apr 15 [cited 2020 Apr 26]; Available from: http://arxiv.org/abs/2003.09871
 
-
-
-
-
-
-
-
-
-
-https://github.com/lindawangg/COVID-Net
 
 https://github.com/aildnont/covid-cxr
 
