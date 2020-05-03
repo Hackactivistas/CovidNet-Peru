@@ -1,10 +1,10 @@
-# CovidNet-Peru [![Cult Of Martians][cult-img]][cult]
+# CovidNet-Peru [![CCLicence][cc-img]][cc]
 > Una propuesta de desarrollo colectivo para el diagnóstico temprano de COVID-Perú.
 
 Se trata de una tecnología open source basado en un modelo de redes neuronales convolucionales con aprendizaje profundo para el pre-diagnóstico del COVID-19 mediante imágenes de radiografía del Tórax
 
 
-[cult-img]:      https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cult-img]:      https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png
 [cult]:          https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
