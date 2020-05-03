@@ -50,13 +50,24 @@ La base para lograr un sistema integral inteligente (https://github.com/minskyla
 <img src="/imagenes/Propuesta de Desarrollo Colectivo.png" align="center" />
 
 
-## Referencias:
+## Referencias
+
+1) Soto A. Barreras para una atención eficaz en los hospitales de referencia del Ministerio de Salud del Perú: atendiendo pacientes en el siglo XXI con recursos del siglo XX. Revista Peruana de Medicina Experimental y Salud Publica. 2019 Jun;36(2):304–11.
+2) Rubin GD, Ryerson CJ, Haramati LB, Sverzellati N, Kanne JP, Raoof S, et al. The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society. Radiology. 2020 Apr 7;201365. 
+3.
+
+
+
+
+
+
+
+
+
 
 https://github.com/lindawangg/COVID-Net
 
 https://github.com/aildnont/covid-cxr
-
-https://medium.com/sheldon.fernandez/covid-net-larger-dataset-new-models-and-covid-risknet-fd8e7c451c
 
 
 
