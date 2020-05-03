@@ -37,6 +37,15 @@ En total nuestro modelo presenta tres procesos (o capas) de identificación: una
 <img src="/imagenes/Flujograma COVIDNet-Peru.png" align="center" />
 
 ## Propuesta de desarrollo colectivo
+
+Para llevar a cabo el desarrollo de este software inteligente nos basaremos en tre hitos, los mismos que responden a nuestros tres objetivos específicos:
+
+- Validación del modelo de inteligencia artificial mediante las redes neuronales convolucionales utilizando imágenes radiográficas de tórax. 
+- Implementación de un agente conversacional (chatbot) de orientación ciudadana para el triaje clínico-epidemiológico.
+- Desarrollo del sistema integrado para la automatización diagnóstica de COVID-19 en el servicio de radiología.
+
+La base para lograr un sistema integral inteligente (https://github.com/minskylab/asclepius), se fundamenta en la modularidad, la escalabilidad, la distribución y el data-driven. Siguiendo esos lineamientos la visión detrás de nuestro software inteligente podremos alcanzar la transformación tecnológica a gran escala para completar la brecha digital que tiene el sistema de salud en el país. 
+
 	
 <img src="/imagenes/Propuesta de Desarrollo Colectivo.png" align="center" />
 
