@@ -38,7 +38,7 @@ Nuestra solución integra tres componentes (o modelos de redes neuronales convol
 <img src="imagenes/covidnet-peru.jpg" align="center" />
 
 ### Métricas 
-Con el fin de probar y obtener resultados reunimos imágenes del torax de pasientes peruanos de forma anónima, los siguientes casos:
+Con el fin de probar y obtener resultados reunimos imágenes del torax de pacientes peruanos de forma anónima, los siguientes casos:
 | Casos  | Cantidad |
 | ------------- | ------------- |
 | COVID-19 Confirmados  | 28 imágenes |
