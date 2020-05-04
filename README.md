@@ -35,7 +35,7 @@ Hemos generado una validación previa del modelo de inteligencia artificial, bas
 
 Nuestra solución integra tres componentes (o modelos de redes neuronales convolucionales - CNN) de identificación: un primer modelo de discriminación de imágenes radiográficas, un segundo modelo de detección de radiografías con patrones de una neumonía viral tipo COVID y, por último (en desarrollo), un tercer modelo de validación que permite verificar lesiones respiratorias adicionales. De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú. Adicionalmente hemos programado una interfaz chatbot en Facebook Messenger donde mediante preguntas se van ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje prevío al analisis por IA. 
 
-<img src="imagenes/COVIDNet-Peru.png" align="center" />
+<img src="imagenes/covidnet-peru.jpg" align="center" />
 
 ### Métricas 
 Con el fin de probar y obtener resultados reunimos imágenes del torax de pasientes peruanos de forma anónima, los siguientes casos:
