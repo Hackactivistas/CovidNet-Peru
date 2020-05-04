@@ -18,8 +18,8 @@ class RunCovidNetPeru:
             print('{}, {} \n'.format(mensaje, ruta_archivo))
 
     def procesar_lote(self):
-        carpeta_covid = 'imagenesperu/covid19/'
-        carpeta_normal = 'imagenesperu/normal/'
+        carpeta_covid = 'dataset/covid19/'
+        carpeta_normal = 'dataset/normal/'
         imagenes_covid = [join(carpeta_covid, f) for f in listdir(carpeta_covid) if isfile(join(carpeta_covid, f))]
         imagenes_normal = [join(carpeta_normal, f) for f in listdir(carpeta_normal) if isfile(join(carpeta_normal, f))]
         list_covid = list(zip(imagenes_covid, ['Covid19' for n in range(len(imagenes_covid))]))

@@ -22,21 +22,49 @@ Siendo ese el principal desafío para las enfermedades emergentes infecto-contag
 
 Es así que planteamos una adaptación del protocolo de atención a persona con sospecha de COVID-19 sugerido por la OMS (4), como medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio. Tal como se hizo en Codogno (Italia) durante la etapa post-cuarentena, implementando una rápida medida de screening en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax como método pre-diagnóstico (4). Adicionalmente, potenciar dicho método diagnóstico mediante el autómata inteligente integrado a un agente conversacional (o chatbot) que permita orientar al ciudadano durante el proceso de triaje. 
 
-<img src="/imagenes/Protocolo de asistencia rápida para descarte COVID19.png" align="center" />
+<img src="imagenes/Protocolo de asistencia rápida para descarte COVID19.png" align="center" />
 
 Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo, fácil acceso y alta confiabilidad, basado en el diseño inteligente que incluso permitiría la reducción del burnout en el personal médico. Este modelo consiste en una red neuronal convolucional profunda basada en una arquitectura diseñada bajo la visión de colaboración humano-maquina inspirada en el estudio de Wang L. and Wong A. (2020) (5).
 
-## Resultados previos
 
-Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (https://github.com/lindawangg/COVID-Net), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos pre-entrenar nuestro modelo con dicha dataset, además, hemos dotado a nuestro modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
+## Resultados Previos
 
-<img src="/imagenes/Web.jpg" align="center" />
+Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (https://github.com/lindawangg/COVID-Net), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos re-entrenar nuestro modelo con dicha dataset añadiendo imagenes de casos peruanos, además, hemos dotado al modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
 
-En total nuestro modelo presenta tres procesos (o capas) de identificación: una primera capa de discriminación de imágenes radiográficas, una segunda capa de detección de radiografías con patrones de una neumonía viral tipo COVID y, por último, una última capa que permite verificar lesiones respiratorias adicionales. De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú, adicionalmente hemos programado un chatbot en Fb messenger ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje. 
+<img src="imagenes/Web.jpg" align="center" />
 
-<img src="/imagenes/Flujograma COVIDNet-Peru.png" align="center" />
+Nuestra solución integra tres componentes (o modelos de redes neuronales convolucionales - CNN) de identificación: un primer modelo de discriminación de imágenes radiográficas, un segundo modelo de detección de radiografías con patrones de una neumonía viral tipo COVID y, por último (en desarrollo), un tercer modelo de validación que permite verificar lesiones respiratorias adicionales. De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú. Adicionalmente hemos programado una interfaz chatbot en Facebook Messenger donde mediante preguntas se van ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje prevío al analisis por IA. 
 
-## Propuesta de desarrollo colectivo
+<img src="imagenes/COVIDNet-Peru_v1.2.png" align="center" />
+
+### Métricas 
+Con el fin de probar y obtener resultados reunimos imágenes del torax de pasientes peruanos de forma anónima, los siguientes casos:
+| Casos  | Cantidad |
+| ------------- | ------------- |
+| COVID-19 Confirmados  | 28 imágenes |
+| Sanos (Sin Covid-19)  | 50 imágenes |
+| | |
+
+Luego de procesar las imagenes se obtuvo los siguientes resultados:
+
+<img src="imagenes/matriz_c_v1.2.png" align="center" />
+
+| Métricas  |   |
+| ------------- | ------------- |
+| Exactitud/Accuracy  | 94.9%  |
+| Sensibilidad  | 92.9%  |
+| Especificidad  | 96.0%  |
+| | |
+
+
+
+### Descarga de Modelos Pre-Entrenados
+En la siguiente ruta iremos publicando los modelos pre entrenados que subamos en cada actualización: 
+https://drive.google.com/open?id=1gVKGlwxkvhG2yPY6IGV77ECXH9705nfM
+
+Antes de ejecutar es necesario descomprimir los archivos de cada modelo dentro de las sub carpetas correspondientes ubicada en la carpeta principal "modelos/".
+
+## Propuesta de Desarrollo Colectivo
 
 Para llevar a cabo el desarrollo de este software inteligente nos basaremos en tre hitos, los mismos que responden a nuestros tres objetivos específicos:
 
@@ -47,7 +75,7 @@ Para llevar a cabo el desarrollo de este software inteligente nos basaremos en t
 La base para lograr un sistema integral inteligente (https://github.com/minskylab/asclepius), se fundamenta en la modularidad, la escalabilidad, la distribución y el data-driven. Siguiendo esos lineamientos la visión detrás de nuestro software inteligente podremos alcanzar la transformación tecnológica a gran escala para completar la brecha digital que tiene el sistema de salud en el país. 
 
 	
-<img src="/imagenes/Propuesta de Desarrollo Colectivo.png" align="center" />
+<img src="imagenes/Propuesta de Desarrollo Colectivo.png" align="center" />
 
 
 ## Referencias
