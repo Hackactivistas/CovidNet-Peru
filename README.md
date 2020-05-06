@@ -1,4 +1,4 @@
-# CovidNet-Peru [![CCLicence][cc-img]][cc]
+# CovidNet-Perú [![CCLicence][cc-img]][cc]
 > Una propuesta de desarrollo colectivo para el diagnóstico temprano de COVID-19.
 
 Se trata de una tecnología open source basado en un modelo de redes neuronales convolucionales con aprendizaje profundo para el pre-diagnóstico del COVID-19 mediante imágenes de radiografía del Tórax
@@ -9,22 +9,24 @@ Se trata de una tecnología open source basado en un modelo de redes neuronales 
 
 
 ## Presentación
-En tiempos tan críticos como la actual pandemia necesitamos de una gobernanza abierta que promueva el desarrollo tecnológico del software libre, herramientas eficientes y confiables de acceso abierto a la innovación continua. Nos encontramos en plena crisis sanitaria y transformación digital (la llamada 4ta Revolución Industrial), por ello es que nace COVIDNetPerú, una propuesta open source que complementa al diagnóstico del COVID-19 utilizando radiografías de tórax mediante la inteligencia artificial.
+En tiempos tan críticos como la actual pandemia necesitamos de una gobernanza abierta que acelere el desarrollo tecnológico  de softwares libres para la democratización del conocimiento, promoviendo la innovación continua a partir de una política de acceso abierto. 
 
-Nuestro software es una iniciativa de ciencia ciudadana, la cual motiva a la integración cultural basado en un modelo de autogestión colaborativa entre científicos activistas independientes (o Hackactivistas). 
+El uso de **Tecnologias Libres** aplicadas en plena crisis sanitaria y tiempo de transformación digital (la así llamada 4ta Revolución Industrial), razones por la que nace [COVIDNetPerú](https://hackactivistas.org/covid19/). Una propuesta open source para el pre-diagnóstico ("test screening") de COVID-19, usando imagenes radiográficas de tórax procesadas a través de un sistema de inteligencia artificial.
 
-La reestructuración de nuevas organizaciones societarias emerge en cada crisis socio-económica, en este contexto, nuestras sociedades latinoamericanas tienen la oportunidad de liderar la innovación social digital impulsando una economía orientada a los bienes comunes desde una política de libre cooperación entre redes autónomas.
+Nuestro software se trata de una iniciativa de ciencia ciudadana (#digitalearth), para la conscientización de la integración cultural como modelo de autogestión colaborativa entre científicos activistas independientes (o Hackactivistas) y la sociedad civil articulando un ecosistema de gobernanza social-equitativa. 
+
+La reestructuración de nuevas organizaciones societarias emerge en cada crisis socio-económica, en este contexto, nuestras naciones a nivel mundial tienen la oportunidad de liderar la innovación social digital impulsando una economía orientada a los bienes comunes desde una política de libre cooperación entre redes autónomas (o microestados).
 
 ## Descripción del proyecto
-El COVID-19 está dejando en el Perú un triple impacto a nivel sanitario, económico y educativo, siendo el segundo país en Latinoamérica con el mayor número de infectados confirmados con más de 30 mil casos (y una aparente tasa de letalidad del 2.8%). Arrastramos una deficiencia en nuestro sistema de salud que retrasa la respuesta terapéutica, tal como lo refiere Soto A (2019) (1), revelando las barreras para una atención eficaz en los hospitales de referencia del Ministerio de Salud, la falta de equipos tecnológicos modernos para el diagnóstico temprano y tratamiento oportuno. 
+El COVID-19 ha impactado en el Perú en tres niveles: sanitario, educativo y económico, ocupando el segundo país de Latinoamérica con el mayor número de infectados confirmados por COVID-19 (+30 mil casos y una aperente tasa de letalidad del 2.8%). Venimos arrastrando una deficiencia en nuestro sistema de salud que retrasa nuestra contingencia. Soto A (2019) (1), describe como tales barreras afectan la atención eficaz en los hospitales de referencia del Ministerio de Salud, la falta de **equipos tecnológicos** modernos para el diagnóstico temprano y un tratamiento oportuno. 
 
-Siendo ese el principal desafío para las enfermedades emergentes infecto-contagiosas, como el COVID-19, lograr una implementación de efectivos métodos diagnósticos que aceleren la detección de los casos infectados. Siendo la prueba molecular PCR (el gold standard) para COVID-19, pese a que tiene una sensibilidad variable entre el 37-71% (2). Estás vienen siendo reforzadas por las pruebas “rápidas” de tipo serológicas que, partir de la segunda semana de iniciada la enfermedad, presentan apenas un 33% de sensibilidad (3). 
+Siendo ese el principal desafío para las enfermedades emergentes infecto-contagiosas, como el COVID-19, desarrollando métodos diagnósticos tan rápidos como efectivos. La prueba molecular PCR (el test gold standard) para COVID-19 presenta una sensibilidad variable entre el 37-71% (2), esta viene siendo complementada por las pruebas “rápidas” (test serológicos) que, a diferencia del gold standard, aumentan su sensibilidad hasta un 33% partir de la segunda semana de iniciada la enfermedad (3). 
 
-Es así que planteamos una adaptación del protocolo de atención a persona con sospecha de COVID-19 sugerido por la OMS (4), como medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio. Tal como se hizo en Codogno (Italia) durante la etapa post-cuarentena, implementando una rápida medida de screening en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax como método pre-diagnóstico (4). Adicionalmente, potenciar dicho método diagnóstico mediante el autómata inteligente integrado a un agente conversacional (o chatbot) que permita orientar al ciudadano durante el proceso de triaje. 
+Es así que planteamos enfatizar el rol del triaje en el protocolo de atención a persona con sospecha de COVID-19 de la OMS (4), como una medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio. Tal como se hizo en Codogno (Italia) implementando un **test screening** en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax (rxtx) como método pre-diagnóstico (4). 
 
 <img src="imagenes/Protocolo de asistencia rápida para descarte COVID19.png" align="center" />
 
-Nuestra propuesta COVIDNet-Perú se presenta como una alternativa de bajo costo, fácil acceso y alta confiabilidad, basado en el diseño inteligente que incluso permitiría la reducción del burnout en el personal médico. Este modelo consiste en una red neuronal convolucional profunda basada en una arquitectura diseñada bajo la visión de colaboración humano-maquina inspirada en el estudio de Wang L. and Wong A. (2020) (5).
+Nuestra propuesta CovidNet-Perú surge como una solución tecnológica que facilitaría la labor de triaje a través de la asistencia inteligente para la rápida identificación y vigilancia de personas infectadas por el nuevo coronavirus. Esta tecnología libre se presenta como una alternativa de bajo costo, fácil acceso y confiable lo cual permite la reducción del burnout en el personal médico. 
 
 
 ## Resultados Previos
@@ -33,33 +35,52 @@ Hemos generado una validación previa del modelo de inteligencia artificial, bas
 
 <img src="imagenes/preview_covidnetperu.png" style="border: 1px solid silver;" align="center" />
 
-Nuestra solución integra tres componentes (o modelos de redes neuronales convolucionales - CNN) de identificación: un primer modelo de discriminación de imágenes radiográficas, un segundo modelo de detección de radiografías con patrones de una neumonía viral tipo COVID y, por último (en desarrollo), un tercer modelo de validación que permite verificar lesiones respiratorias adicionales. De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú. Adicionalmente hemos programado una interfaz chatbot en Facebook Messenger donde mediante preguntas se van ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje prevío al analisis por IA. 
+Hemos generado una validación previa del modelo de inteligencia artificial, inspirados en el desarrollo de Wang L. and Wong A. (2020) (5) (https://github.com/lindawangg/COVID-Net), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos re-entrenar nuestro modelo con dicha dataset añadiendo imagenes de casos locales, además, hemos robustecido al modelo con nuevos filtros de discriminación que permite identificar solo rxtx entre cualquier otro tipo de imagen. 
 
 <img src="imagenes/covidnet-peru.jpg" align="center" />
 
-### Métricas 
-Con el fin de probar y obtener resultados reunimos imágenes del torax de pacientes peruanos de forma anónima, los siguientes casos:
-| Casos  | Cantidad |
-| ------------- | ------------- |
-| COVID-19 Confirmados  | 28 imágenes |
-| Sanos (Sin Covid-19)  | 50 imágenes |
+Nuestra solución integra tres componentes de identificación (o modelos de redes neuronales convolucionales - CNN): el modelo de discriminación de imágenes radiográficas, el modelo de detección de radiografías tipo neumonía viral relacionadas a COVID-19 y, por último, el modelo de validación que permite verificar lesiones respiratorias adicionales (aún en desarrollo). 
 
-Luego de procesar las imagenes se obtuvo los siguientes resultados:
+De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú. Adicionalmente hemos programado una interfaz chatbot en Facebook Messenger donde mediante preguntas se van ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje prevío al analisis por IA. 
 
 <img src="imagenes/matriz_c_v1.2.png" align="center" />
+Con el fin de comprobar la veracidad del pre-entrenamiento, hemos generado un primer análisis a partir de resultados obtenidos de 78 imagenes radiográficas de tórax, se respetó el carácter anónimo de los pacientes. 
 
-| Métricas  |   |
-| ------------- | ------------- |
-| Exactitud/Accuracy  | 94.9%  |
-| Sensibilidad  | 92.9%  |
-| Especificidad  | 96.0%  |
+#### Tabla de imágenes totales 
+| Casos  | Cantidad |
+|   --   |    --    |
+| COVID-19 confirmados   | 28 imágenes |
+| Normales (sin Covid-19)| 50 imágenes |
+
+Todas las imágenes obtenidas fueron entregadas bajo dos tipos de clasificación: 1) imágenes rx normales (sin presencia de hallazgos radiográficos relacionados a COVID-19) y 2) imágenes rx COVID-19 (con patrón radiológico relacionado a neumonia viral), según los radiologos se trata de una opacidad bilateral con forma de "vidrio escarchado", dispuesto en zonas periféricas y posteriores de los pulmones, estos son patrones inespecíficos de las enfermedades respiratorias intersticiales (#enf). 
+
+#### Tabla de imágenes categorizadas
+| Casos|Normal| Neumonia | COVID-19|
+|     --      |  --  |  --- |  --  |
+|  **Normal** | TN=48|  0   | FP=2 |
+| **Neumonia**|  0   |  0   |  0   |
+| **COVID-19**| FN=2 | TP=5 | TP=21|
 
 
-### Descarga de Modelos Pre-Entrenados
-En la siguiente ruta iremos publicando los modelos pre entrenados que subamos en cada actualización: 
+Nuestro modelo CovidNet-Perú clasificó las imágenes entregadas en tres categorías: (50) normal, (5) neumonia y (23) Covid-19. Reconociendo 5 casos con neumonía de las imágenes reportadas como COVID-19, los resultados indican una diferencia diagnóstica importante para identificar la causa de la lesión subyacente al patrón neumónico (#manifiestoCT), sin embargo, ambos resultados advierten una intervención terapéutica allende su patogénesis.
+
+#### Matriz de Confusión 
+<img src="imagenes/matriz_c_v1.2.png" align="center" />
+
+Así mismo, hemos reconocido en nuestra matriz de confusión las limitaciones de nuestro modelo, al descubrir dos casos como falsos positivos (FP) y otros dos como falsos negativos (FN). Las imágenes FP y FN demuestran dos escenarios por mejorar tanto el aumento del tamaño de muestras radiográficas analizadas como también la mejora en la calidad de imágenes (con supervisión de profesionales en radiología), ya que son parámetros de interés que limitan la precisión del modelo actual.
+
+
+#### Tabla de indicadores 
+|   Métrica     | Operaciones |  %  |
+|       --      |      --     |  -- |
+| Exactitud     | (48+26)/78  |94.9 |
+| Sensibilidad  | 26/(2+26)   |92.9 |
+| Especificidad | 48/(48-2)   |96.0 |
+
+>Descarga de Modelos Pre-Entrenados
+Posterioemente estaremos compartiendo las versiones mejoradas del actual modelo y la actualización de la dataset: 
 https://drive.google.com/open?id=1gVKGlwxkvhG2yPY6IGV77ECXH9705nfM
-
-Antes de ejecutar es necesario descomprimir los archivos de cada modelo dentro de las sub carpetas correspondientes ubicada en la carpeta principal "modelos/".
+*Antes de ejecutar es necesario descomprimir los archivos de cada modelo dentro de las sub carpetas correspondientes ubicada en la carpeta principal "modelos/"*.
 
 ## Propuesta de Desarrollo Colectivo
 
@@ -86,6 +107,6 @@ La base para lograr un sistema integral inteligente (https://github.com/minskyla
 **Recursos adicionales:** https://github.com/aildnont/covid-cxr
 
 --- 
-`Equipo de investigación: ialab@hackactivistas.org, edwincc@tenzorgroup.com, jhosepvega2015@gmail.com, david.chaupis.m@upch.pe, samuel.electronica@gmail.com, edronald7@gmail.com`
+`Equipo de investigación: ialab@hackactivistas.org, edwincc@tenzorgroup.com, jhosepvega2015@gmail.com, david.chaupis.m@upch.pe, samuel.electronica@gmail.com, edronald7@gmail.com, ale.1010@live.com`
 
 
