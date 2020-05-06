@@ -43,8 +43,6 @@ Nuestra solución integra tres componentes de identificación (o modelos de rede
 
 De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú. Adicionalmente hemos programado una interfaz chatbot en Facebook Messenger donde mediante preguntas se van ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje prevío al analisis por IA. 
 
-<img src="imagenes/covidnet-peru.jpg" align="center" />
-
 Con el fin de comprobar la veracidad del pre-entrenamiento, hemos generado un primer análisis a partir de resultados obtenidos de 78 imagenes radiográficas de tórax, se respetó el carácter anónimo de los pacientes. 
 
 #### Tabla de imágenes totales 
@@ -99,11 +97,11 @@ La base para lograr un sistema integral inteligente (https://github.com/minskyla
 
 ## Referencias
 
-1) Soto A. Barreras para una atención eficaz en los hospitales de referencia del Ministerio de Salud del Perú: atendiendo pacientes en el siglo XXI con recursos del siglo XX. Revista Peruana de Medicina Experimental y Salud Publica. 2019 Jun;36(2):304–11.
-2) Rubin GD, Ryerson CJ, Haramati LB, Sverzellati N, Kanne JP, Raoof S, et al. The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society. Radiology. 2020 Apr 7;201365. 
-3) Vidal-Anzardo M, Solis G, Solari L, Minaya G, Ayala-Quintanilla B, Astete-Cornejo J, et al. Evaluación en condiciones de campo de una prueba serológica rápida para detección de anticuerpos IgM e IgG contra SARS-CoV-2. Revista Peruana de Medicina Experimental y Salud Pública [Internet]. 2020 Apr 21 [cited 2020 Apr 26];37(2). Available from: https://rpmesp.ins.gob.pe/index.php/rpmesp/article/view/5534
-4) Bandirali M, Sconfienza LM, Serra R, Brembilla R, Albano D, Pregliasco FE, et al. Chest X-ray findings in asymptomatic and minimally symptomatic quarantined patients in Codogno, Italy. Radiology. 2020 Mar 27;201102. 
-5) Wang L, Wong A. COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest X-Ray Images. arXiv:200309871 [cs, eess] [Internet]. 2020 Apr 15 [cited 2020 Apr 26]; Available from: http://arxiv.org/abs/2003.09871
+1. Soto A. Barreras para una atención eficaz en los hospitales de referencia del Ministerio de Salud del Perú: atendiendo pacientes en el siglo XXI con recursos del siglo XX. Revista Peruana de Medicina Experimental y Salud Publica. 2019 Jun;36(2):304–11.
+2. Rubin GD, Ryerson CJ, Haramati LB, Sverzellati N, Kanne JP, Raoof S, et al. The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society. Radiology. 2020 Apr 7;201365. 
+3. Vidal-Anzardo M, Solis G, Solari L, Minaya G, Ayala-Quintanilla B, Astete-Cornejo J, et al. Evaluación en condiciones de campo de una prueba serológica rápida para detección de anticuerpos IgM e IgG contra SARS-CoV-2. Revista Peruana de Medicina Experimental y Salud Pública [Internet]. 2020 Apr 21 [cited 2020 Apr 26];37(2). Available from: https://rpmesp.ins.gob.pe/index.php/rpmesp/article/view/5534
+4. Bandirali M, Sconfienza LM, Serra R, Brembilla R, Albano D, Pregliasco FE, et al. Chest X-ray findings in asymptomatic and minimally symptomatic quarantined patients in Codogno, Italy. Radiology. 2020 Mar 27;201102. 
+5. Wang L, Wong A. COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest X-Ray Images. arXiv:200309871 [cs, eess] [Internet]. 2020 Apr 15 [cited 2020 Apr 26]; Available from: http://arxiv.org/abs/2003.09871
 
 **Recursos adicionales:** https://github.com/aildnont/covid-cxr
 
