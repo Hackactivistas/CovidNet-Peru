@@ -43,7 +43,8 @@ Nuestra solución integra tres componentes de identificación (o modelos de rede
 
 De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú. Adicionalmente hemos programado una interfaz chatbot en Facebook Messenger donde mediante preguntas se van ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje prevío al analisis por IA. 
 
-<img src="imagenes/matriz_c_v1.2.png" align="center" />
+<img src="imagenes/covidnet-peru.jpg" align="center" />
+
 Con el fin de comprobar la veracidad del pre-entrenamiento, hemos generado un primer análisis a partir de resultados obtenidos de 78 imagenes radiográficas de tórax, se respetó el carácter anónimo de los pacientes. 
 
 #### Tabla de imágenes totales 
