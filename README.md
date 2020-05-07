@@ -19,7 +19,7 @@ Nuestro software se trata de una iniciativa de ciencia ciudadana (autogestión c
 
 La reprogramación de nuevas organizaciones societarias emergen en cada crisis político-económica, en este contexto, nuestras naciones a nivel mundial tienen la oportunidad de liderar la **innovación social digital**, una economía orientada a los bienes comunes desde una política de libre cooperación entre redes autónomas (o microestados) hiperconectadas. 
 
-!{<img src= "imagenes/g0v.png" align="center"/>](http://g0v.asia/tw/)
+<img src= "imagenes/g0v.png" align="center"/>(http://g0v.asia/tw/)
 
 
 ## Descripción del proyecto
