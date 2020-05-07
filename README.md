@@ -29,7 +29,7 @@ Siendo ese el principal desafío para las enfermedades emergentes infecto-contag
 Es así que planteamos enfatizar el rol del triaje en el protocolo de atención a persona con sospecha de COVID-19 de la Organización Mundial de la Salud, como una medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio. Tal como se hizo en Codogno (Italia) implementando un **test screening** en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax (rxtx) como método pre-diagnóstico [4]. 
 
 <img src="imagenes/Protocolo de asistencia rápida para descarte COVID19.png" align="center" />
-[![Forking the governence](https://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v)]
+[Forking the governence](https://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v)
 
 Nuestra propuesta CovidNet-Perú surge como una solución tecnológica que facilitaría la labor de triaje a través de la asistencia inteligente para la rápida identificación y vigilancia de personas infectadas por el nuevo coronavirus. Esta tecnología libre se presenta como una alternativa de bajo costo, fácil acceso y confiable lo cual permite la reducción del burnout en el personal médico. 
 
