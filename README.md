@@ -19,8 +19,7 @@ Nuestro software se trata de una iniciativa de ciencia ciudadana (autogestión c
 
 La reprogramación de nuevas organizaciones societarias emergen en cada crisis político-económica, en este contexto, nuestras naciones a nivel mundial tienen la oportunidad de liderar la **innovación social digital**, una economía orientada a los bienes comunes desde una política de libre cooperación entre redes autónomas (o microestados) hiperconectadas. 
 
-
-[Forking the governence](https://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v).<img src= "imagenes/g0v.png" align="center"/>
+<img src= "imagenes/g0v.png" align="center"/>
 
 ## Descripción del proyecto
 El COVID-19 ha impactado en el Perú en tres niveles: sanitario, educativo y económico, ocupando el segundo país de Latinoamérica con el mayor número de infectados confirmados por COVID-19 (+30 mil casos y una aperente tasa de letalidad del 2.8%). Venimos arrastrando una deficiencia en nuestro sistema de salud que retrasa nuestra contingencia. Soto A (2019) [1], describe como tales barreras afectan la atención eficaz en los hospitales de referencia del Ministerio de Salud, la falta de **equipos tecnológicos** modernos para el diagnóstico temprano y un tratamiento oportuno. 
@@ -30,6 +29,7 @@ Siendo ese el principal desafío para las enfermedades emergentes infecto-contag
 Es así que planteamos enfatizar el rol del triaje en el protocolo de atención a persona con sospecha de COVID-19 de la Organización Mundial de la Salud, como una medida post-cuarentena, así agilizar la identificación y el monitoreo de nuevos casos de contagio. Tal como se hizo en Codogno (Italia) implementando un **test screening** en zonas de alto riesgo de transmisión comunitaria, tras intervenir a asintomáticos o mínimamente sintomáticos usando radiografías de tórax (rxtx) como método pre-diagnóstico [4]. 
 
 <img src="imagenes/Protocolo de asistencia rápida para descarte COVID19.png" align="center" />
+[![Forking the governence](https://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v)]
 
 Nuestra propuesta CovidNet-Perú surge como una solución tecnológica que facilitaría la labor de triaje a través de la asistencia inteligente para la rápida identificación y vigilancia de personas infectadas por el nuevo coronavirus. Esta tecnología libre se presenta como una alternativa de bajo costo, fácil acceso y confiable lo cual permite la reducción del burnout en el personal médico. 
 
