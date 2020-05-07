@@ -1,7 +1,7 @@
 # CovidNet-Perú [![CCLicence][cc-img]][cc]
 > Una propuesta de desarrollo colectivo para el diagnóstico temprano de COVID-19.
 
-Se trata de una tecnología open source basado en un modelo de redes neuronales convolucionales (CNN-Deep Learning) para el pre-diagnóstico del COVID-19 mediante imágenes de radiografía del tórax
+Se trata de una tecnología open source basado en un modelo de redes neuronales convolucionales (CNN-Deep Learning) para el pre-diagnóstico del COVID-19 usando imágenes radiográficas del tórax.
 
 
 [cc-img]:      https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png
