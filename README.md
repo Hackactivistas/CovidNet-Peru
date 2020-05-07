@@ -21,7 +21,6 @@ La reprogramación de nuevas organizaciones societarias emergen en cada crisis p
 
 <img src= "imagenes/g0v.png" align="center"/>
 
-## [Forking the governence!](https://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v)
 
 ## Descripción del proyecto
 El COVID-19 ha impactado en el Perú en tres niveles: sanitario, educativo y económico, ocupando el segundo país de Latinoamérica con el mayor número de infectados confirmados por COVID-19 (+30 mil casos y una aperente tasa de letalidad del 2.8%). Venimos arrastrando una deficiencia en nuestro sistema de salud que retrasa nuestra contingencia. Soto A (2019) [1], describe como tales barreras afectan la atención eficaz en los hospitales de referencia del Ministerio de Salud, la falta de **equipos tecnológicos** modernos para el diagnóstico temprano y un tratamiento oportuno. 
@@ -125,4 +124,4 @@ Equipo de investigación y desarrollo:
 - ale.1010@live.com,
 - david.chaupis.m@upch.pe,
 
-
+## [Forking the governence!](https://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v)
