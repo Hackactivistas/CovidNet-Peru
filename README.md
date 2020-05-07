@@ -11,7 +11,7 @@ Se trata de una tecnología open source basado en un modelo de redes neuronales 
 ## Presentación
 
 
-En tiempos de necesitamos de una gobernanza abierta que acelere el desarrollo tecnológico  de softwares libres para la democratización del conocimiento, promoviendo la innovación continua a partir de una política de acceso abierto. 
+Tiempos críticos merecen cambios disruptivos, una gobernanza abierta y colaborativa que acelere el desarrollo tecnológico  de softwares libres para la democratización del conocimiento, promoviendo la innovación continua a partir de una política de acceso abierto. 
 
 El uso de **Tecnologias Libres** debe ser aplicada en plena crisis sanitaria y tiempo de transformación digital (la llamada 4ta Revolución Industrial), razones por la que nace [COVIDNetPerú](https://hackactivistas.org/covid19/). Una propuesta open source para la asistencia inteligente en el pre-diagnóstico ("test screening") de COVID-19, usando imagenes radiográficas de tórax.
 
@@ -19,7 +19,7 @@ Nuestro software se trata de una iniciativa de ciencia ciudadana (autogestión c
 
 La reprogramación de nuevas organizaciones societarias emergen en cada crisis político-económica, en este contexto, nuestras naciones a nivel mundial tienen la oportunidad de liderar la **innovación social digital**, una economía orientada a los bienes comunes desde una política de libre cooperación entre redes autónomas (o microestados) hiperconectadas. [Forking the governence](https://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v).
 
-<img src= "https://dchtm6r471mui.cloudfront.net/hackpad.com_hmHV14IhfO2_p.41199_1388579785569_g0v-about-en.png", align="center">
+<img src= "imagenes/g0v", align="center">
 
 ## Descripción del proyecto
 El COVID-19 ha impactado en el Perú en tres niveles: sanitario, educativo y económico, ocupando el segundo país de Latinoamérica con el mayor número de infectados confirmados por COVID-19 (+30 mil casos y una aperente tasa de letalidad del 2.8%). Venimos arrastrando una deficiencia en nuestro sistema de salud que retrasa nuestra contingencia. Soto A (2019) [1], describe como tales barreras afectan la atención eficaz en los hospitales de referencia del Ministerio de Salud, la falta de **equipos tecnológicos** modernos para el diagnóstico temprano y un tratamiento oportuno. 
