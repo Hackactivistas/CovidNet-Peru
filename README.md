@@ -111,11 +111,11 @@ La base para lograr un sistema integral inteligente (https://github.com/minskyla
 >¿Deseas ser parte nuestra comunidad Hackactivista o deseas implementar nuestro modelo en tu centro de salud? Contáctanos: ialab@hackactivistas.org.
 
 Equipo de investigación y desarrollo: 
-- David Chaupis david.chaupis.m@upch.pe, 
 - Edwin Ccopacondori edwincc@tenzorgroup.com, 
 - Jhosep Vega jhosepvega2015@gmail.com, 
 - Samuel Failoc samuel.electronica@gmail.com, 
 - Bregy Malpartida bregymr@gmail.com, 
-- Alejandro Hurtado ale.1010@live.com.
+- Alejandro Hurtado ale.1010@live.com,
+- David Chaupis david.chaupis.m@upch.pe,
 
 
