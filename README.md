@@ -124,4 +124,4 @@ Equipo de investigación y desarrollo:
 - ale.1010@live.com,
 - david.chaupis.m@upch.pe,
 
-## [Forking the governance!](https://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v)
+## [Forking the government!](https://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v)
