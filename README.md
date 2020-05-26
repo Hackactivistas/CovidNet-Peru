@@ -37,15 +37,13 @@ Nuestra propuesta CovidNet-Perú surge como una solución tecnológica que facil
 
 ## Resultados Previos
 
-Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (https://github.com/lindawangg/COVID-Net), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos re-entrenar nuestro modelo con dicha dataset añadiendo imagenes de casos peruanos, además, hemos dotado al modelo nuevos filtros de discriminación que permite identificar solo radiografías de tórax entre cualquier otro tipo de imagen. 
+Hemos generado una validación previa del modelo de inteligencia artificial, basado en el desarrollo de un estudio previo (https://github.com/lindawangg/COVID-Net), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. 
 
 <img src="imagenes/preview_covidnetperu.png" style="border: 1px solid silver;" align="center" />
 
-Hemos generado una validación previa del modelo de inteligencia artificial, inspirados en el desarrollo de Wang L. and Wong A. (2020) [5] (https://github.com/lindawangg/COVID-Net), utilizando 1635 imágenes radiográficas clasificadas como i) rx normal, ii) rx neumonía y iii) rx COVID. En tal sentido, logramos re-entrenar nuestro modelo con dicha dataset añadiendo imagenes de casos locales, además, hemos robustecido al modelo con nuevos filtros de discriminación que permite identificar solo rxtx entre cualquier otro tipo de imagen. 
+En tal sentido, logramos re-entrenar nuestro modelo con dicha dataset añadiendo imagenes de casos locales, además, hemos robustecido al modelo con nuevos filtros de discriminación que permite identificar solo rxtx entre cualquier otro tipo de imagen. Nuestra solución integra tres componentes de identificación (o modelos de redes neuronales convolucionales - CNN): el modelo de discriminación de imágenes radiográficas, el modelo de detección de radiografías tipo neumonía viral relacionadas a COVID-19 y, por último, el modelo de validación que permite verificar lesiones respiratorias adicionales (aún en desarrollo). 
 
 <img src="imagenes/covidnet-peru.jpg" align="center" />
-
-Nuestra solución integra tres componentes de identificación (o modelos de redes neuronales convolucionales - CNN): el modelo de discriminación de imágenes radiográficas, el modelo de detección de radiografías tipo neumonía viral relacionadas a COVID-19 y, por último, el modelo de validación que permite verificar lesiones respiratorias adicionales (aún en desarrollo). 
 
 De este modo fue diseñada la arquitectura de nuestro algoritmo COVIDNet-Perú. Adicionalmente hemos programado una interfaz chatbot en Facebook Messenger donde mediante preguntas se van ponderando las respuestas en base a los criterios clínicos-epidemiológicos para un correcto triaje prevío al analisis por IA. 
 
